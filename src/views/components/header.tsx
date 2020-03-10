@@ -1,10 +1,15 @@
 import { Link } from 'gatsby';
 import React from 'react';
 
+import styled from 'styled-components';
+
+const StyledHeader = styled.header`
+  background-color: ${({ theme }) => theme.color.primary};
+`;
+
 const Header = ({ siteTitle }: any) => (
-  <header
+  <StyledHeader
     style={{
-      background: `rebeccapurple`,
       marginBottom: `1.45rem`,
     }}
   >
@@ -27,7 +32,7 @@ const Header = ({ siteTitle }: any) => (
         </Link>
       </h1>
     </div>
-  </header>
+  </StyledHeader>
 );
 
 Header.defaultProps = {
