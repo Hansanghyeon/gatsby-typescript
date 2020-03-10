@@ -1,0 +1,21 @@
+{
+  "editor.formatOnSave": true,
+  "javascript.format.enable": false,
+  "eslint.alwaysShowStatus": true,
+  "eslint.options": {
+    "extensions": [
+      ".html",
+      ".ts",
+      ".js",
+      ".tsx",
+      ".jsx"
+    ]
+  },
+  "files.autoSaveDelay": 500,
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "explorer.sortOrder": "type",
+  "typescript.format.enable": false,
+}
